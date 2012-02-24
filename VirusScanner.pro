@@ -11,8 +11,18 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    scannerthread.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    scannerthread.h
 
 FORMS    += mainwindow.ui
+
+
+
+
+
+
+
+
